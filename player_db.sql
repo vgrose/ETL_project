@@ -18,3 +18,9 @@ create table nba_career_data (
     Average_AST decimal(20,2),
     Average_PTS decimal(20,2)
 );
+
+create table nba_position_data (
+	Player varchar(100) primary key,
+    Pos varchar (10)
+);
+
