@@ -20,7 +20,7 @@ create table nba_career_data (
 );
 
 create table nba_position_data (
-	Player varchar(100) primary key,
-    Pos varchar (10)
+	Player varchar(100),
+    Pos text
 );
 
